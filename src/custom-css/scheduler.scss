@@ -1,0 +1,48 @@
+.k-actions-button {
+    border-radius: 8px;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+.k-actions button.k-button {
+    @extend .k-actions-button;
+
+    &:nth-child(1) {
+        background: var(--blue-primary);
+        
+    }
+
+    &:nth-child(2) {
+        background-color: var(--grey-secondary);
+    }
+
+}
+
+.k-scheduler-edit-dialog .k-actions button.k-button {
+    @extend .k-actions-button;
+
+    &:nth-child(1) {
+        background-color: var(--blue-primary);
+    }
+
+    &:nth-child(2) {
+        background: var(--grey-secondary);
+    }
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "label": "Within 7 Days",
+        "count": 0,
+        "value1":0,
+        "value2":7
+    },
+    {
+        "id": 2,
+        "label": "Within 14 Days",
+        "value1":0,
+        "value2":14
+    },
+    {
+        "id": 3,
+        "label": "Within 30 Days",
+        "value1":0,
+        "value2":30
+    }
+]

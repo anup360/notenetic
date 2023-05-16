@@ -1,0 +1,318 @@
+
+/* landing page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-color:#51565D;
+    --bg-color:#635BFF;
+    --heading-text:#293039;
+    
+}
+p{
+    color: var(--text-color);
+    line-height: 28px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.f18-size {
+    font-size: 18px;
+}
+.f20-size{
+    font-size: 20px !important;
+}
+h5{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.more_btn{
+    font-size: 18px;
+    color: var(--bg-color);
+    font-weight: bold;
+}
+.bg_text{
+    color: var(--bg-color) !important;
+}
+
+
+.h3-heading {
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--heading-text);
+    font-weight: bold;
+}
+
+.p_para {
+    color: var(--text-color);
+    line-height: 32px;
+    font-size: 18px;
+}
+/* 27-april-23 */
+
+
+.banner {
+    background-position: center;
+    background-size: cover;
+}
+.banner_main{
+    background-image: url(/public/banner_bg.png);
+    background-size: cover;
+}
+.banner_spacing {
+    padding: 80px 0;
+}
+.app_btn {
+    background: var(--bg-color) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 40px #2BABA012;
+    border-radius: 28px;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 37px;
+    border: 1px solid var(--bg-color);
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.app_btn:hover {
+    border: 1px solid var(--bg-color);
+    background: #fff;
+    box-shadow: 0px 2px 40px #2BABA01A;
+    color: var(--bg-color);
+}
+
+.banner_main h1 {
+    letter-spacing: 0px;
+    color: var(--heading-text);
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.banner_main h5 {
+    font-size: 42px;
+    color: var(--bg-color);
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.para-space{
+    padding: 45px 0px;
+}
+.years-main{
+    padding-top: 120px;
+}
+.main-offer-sec {
+    background-image: url(/public/offer_banner.png);
+    background-size: cover;
+    padding-top: 140px;
+    background-position: center center;
+    padding-bottom: 170px;
+}
+.cards-set {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 30px;
+    background: white;
+    max-width: 368px;
+}
+.offer-text{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+/* second-section  end*/
+
+
+.Features-sec-main{
+    padding: 100px 0px;
+}
+.check-icon{
+    border: 2px solid var(--bg-color);
+    border-radius: 50%;
+    color:var(--bg-color) ;
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 8px;
+}
+.check-set{
+    border-radius: 50% !important;
+}
+.Pricing-sec-main{
+    background-image: url(/public/Price_banner.png);
+    background-size: cover;
+    padding: 140px 0px ;
+}
+.cards-sec-set{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 50px 0px;
+    background: white;
+    max-width: 368px;
+}
+.text-color-h2{
+    color: var(--bg-color);
+}
+/* Our-Blogs-sec start*/
+.Our-Blogs-sec{
+    background-image: url(/public/blog_banner.png);
+    background-size: cover;
+    padding-bottom: 212px;
+    padding-top: 165px;
+}
+.cards-blogs-set{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background: white;
+    max-width: 386px;
+}
+.blog-img img{
+ width: 100%;
+ height: 226px;
+ border-radius: 10px 10px 0px 0px;
+}
+.blog-body{
+    padding: 20px;
+}
+.health-sec{
+padding: 50px 0px ;
+}
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    content: "\f067"; 
+}
+.count-width {
+    width: 149px;
+}
+.para-space {
+    color:var(--text-color);
+    font-size: 20px;
+}
+.list-styled-cus li::before{
+    background:url(/public/checked.svg);
+    content: "";
+    position:absolute;
+    width: 100%;
+    height:100%;
+    left: -26px;
+    background-repeat: no-repeat;
+}
+.list-styled-cus li {
+    position: relative;
+    list-style-type: none;
+    padding-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.list_styled_month li::before {
+    background: url(http://localhost:3000/static/media/checked.5d2bc7ef01ad40e09561.svg);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 26%;
+    background-repeat: no-repeat;
+    top: 1px;
+}
+.list-styled-cus li {
+    font-weight: 400;
+}
+.play_btn {
+    position: absolute;
+    top: 46%;
+    left: 46px;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background: #E8E6FF 0% 0% no-repeat padding-box;
+box-shadow: 10px 20px 40px #F4E3C74F;
+cursor: pointer;
+}
+.play_btn img {
+    padding: 51px 57px;
+}
+.health-sec .card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 0;
+}
+.health-sec .card {
+    border: 0;
+}
+.btn_collapse {
+    width: 100%;
+    text-align: start;
+}
+.btn_collapse:focus {
+ box-shadow: none;
+}
+.health-sec .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #293039;
+    line-height: 30px;
+}
+.health-sec div#accordion {
+    margin-top: 52px;
+}
+.landing_main_inner {
+    padding-top: 107px !important;
+}
+.landing_main_inner .container-fluid{
+    padding: 0px 0px ;
+}
+.phone_icon img {
+    width: 22px;
+    margin-right: 7px;
+}
+.header_landing .nav-item {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 43px;
+}
+.header_landing .navbar-brand {
+    font-weight: bold;
+    color:var(--bg-color) !important;
+    font-size: 26px;
+}
+.header_landing {
+    box-shadow: 0px 8px 30px #0000002B;
+}
+/* .header_landing  .nav-link:hover {
+    color: #000 !important;
+    border-bottom: 1px solid #000;
+} */
+.header_landing .nav-item:active{
+    color: #000 !important;
+    border-bottom: 1px solid #000;
+}
+.header_landing  .active{
+    color: red !important;
+    border-bottom: 1px solid #000;
+}
+.circle-rouned {
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    background: #635aff;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+}
+footer.footer_main {
+    background: #F6F6F6;
+    padding: 100px  0;
+}

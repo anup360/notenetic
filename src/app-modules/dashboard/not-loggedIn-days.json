@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "label": "In last 7 days",
+        "count": 0,
+        "value1":0,
+        "value2":7
+    },
+    {
+        "id": 2,
+        "label": "In last 14 days",
+        "count": 0,
+        "value1":0,
+        "value2":14
+
+    },
+    {
+        "id": 3,
+        "label": "In last 30 days",
+        "count": 0,
+        "value1":0,
+        "value2":30
+
+    },
+    {
+        "id": 4,
+        "label": "More than 30 days",
+        "count": 0,
+        "value1":30,
+        "value2":0
+
+    }
+]

@@ -1,0 +1,41 @@
+@media(max-width:1390px){
+    .color_change_docs {
+        height: auto;
+    }
+    .dynamic_approve_btn button {
+        word-break: break-word;
+        text-overflow: ellipsis;
+        white-space: break-spaces;
+        text-align: start;
+        width: auto;
+    }
+}
+
+@media(max-width:992px){
+    .day_event {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+
+@media(max-width:767px){
+    /* .header-site-cus {
+        position: absolute;
+        border: 0;
+        bottom: 28px;
+        right: 0;
+    }  */
+    .treat_plan_width .k-window-content.k-dialog-content {
+        max-width: 500px;
+        width: auto;
+        padding: 0px;
+    }
+   .treat_plan_width .k-widget.k-window.k-dialog {
+        width: 308px;
+        display: block;
+    }
+    
+}
+
+
